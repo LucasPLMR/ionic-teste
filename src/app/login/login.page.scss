@@ -1,0 +1,43 @@
+ion-content.background{
+    --background:url(../../assets/beach.jpg)0 0/100% 100% no-repeat;
+  }
+
+
+  .login{
+    color: rgb(238, 238, 238);
+    text-align: center;
+    border-radius: 5px;
+    margin: 280px;
+    padding:10%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  ion-input{
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 1px;
+    border-color: rgb(238, 238, 238);
+  }
+
+  ion-checkbox {
+    --size: 32px;
+    --checkbox-background-checked: #0ef0cafa;
+    --checkbox-background:none;
+    padding: 5%;
+    color: rgb(238, 238, 238);
+  }
+  
+  ion-checkbox::part(container) {
+    border-radius: 6px;
+    border: 2px solid #0becced5;
+  }
+
+  .button{
+    padding: 5%;
+    --background:#0becced5;
+    color: rgb(238, 237, 237);
+  }

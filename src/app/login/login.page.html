@@ -1,0 +1,25 @@
+<ion-content class="background">
+  <div class="login">
+  <ion-input
+  type="email"
+  fill="solid"
+  label="Email"
+  labelPlacement="floating"
+  email
+  [(ngModel)]="email"
+></ion-input>
+<ion-input
+  type="password"
+  fill="solid"
+  label="Password"
+  labelPlacement="floating"
+  email
+  [(ngModel)]="password"
+></ion-input>
+<ion-checkbox>Mantenha-me conectado</ion-checkbox>
+<div class="button">
+  <ion-button size="small">Cadastre-se</ion-button>
+  <ion-button size="small"  (click)="login()">Login</ion-button>
+</div>
+</div>
+</ion-content>
